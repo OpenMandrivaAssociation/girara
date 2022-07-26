@@ -4,7 +4,7 @@
 
 Name:		girara
 Version:	0.3.7
-Release:	%mkrel 1
+Release:	1
 Summary:	Simple user interface library
 Group:		Development/Other
 License:	zlib
@@ -51,7 +51,7 @@ BuildArch:	noarch
 Internationalization and locale data for %{name}
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %meson
