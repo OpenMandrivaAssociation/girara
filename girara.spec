@@ -3,7 +3,7 @@
 %define devname	%mklibname %{name}-gtk3 -d
 
 Name:		girara
-Version:	0.3.7
+Version:	0.3.8
 Release:	1
 Summary:	Simple user interface library
 Group:		Development/Other
