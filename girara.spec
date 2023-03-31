@@ -4,7 +4,7 @@
 
 Name:		girara
 Version:	0.3.8
-Release:	1
+Release:	2
 Summary:	Simple user interface library
 Group:		Development/Other
 License:	zlib
