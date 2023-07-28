@@ -14,6 +14,7 @@ BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(check)
 BuildRequires:	pkgconfig(libnotify)
 BuildRequires:	pkgconfig(json-c)
+BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:	doxygen
 BuildRequires:	meson
 
