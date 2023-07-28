@@ -3,8 +3,8 @@
 %define devname	%mklibname %{name}-gtk3 -d
 
 Name:		girara
-Version:	0.3.8
-Release:	2
+Version:	0.4.0
+Release:	1
 Summary:	Simple user interface library
 Group:		Development/Other
 License:	zlib
@@ -14,6 +14,7 @@ BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(check)
 BuildRequires:	pkgconfig(libnotify)
 BuildRequires:	pkgconfig(json-c)
+BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:	doxygen
 BuildRequires:	meson
 
