@@ -8,7 +8,7 @@ Release:	1
 Summary:	Simple user interface library
 Group:		Development/Other
 License:	zlib
-URL:		http://pwmt.org/projects/girara/
+URL:		https://pwmt.org/projects/girara/
 Source0:	https://github.com/pwmt/girara/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(check)
