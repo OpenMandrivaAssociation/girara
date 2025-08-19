@@ -1,15 +1,18 @@
-%define major	3
+%define major	4
 %define libname	%mklibname %{name}-gtk3_ %{major}
 %define devname	%mklibname %{name}-gtk3 -d
 
 Name:		girara
-Version:	0.4.2
+Version:	0.4.5
 Release:	1
 Summary:	Simple user interface library
 Group:		Development/Other
 License:	zlib
 URL:		https://pwmt.org/projects/girara/
 Source0:	https://github.com/pwmt/girara/archive/%{version}/%{name}-%{version}.tar.gz
+
+BuildSystem:	meson
+
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(check)
 BuildRequires:	pkgconfig(libnotify)
@@ -54,13 +57,8 @@ Internationalization and locale data for %{name}
 %prep
 %autosetup -p1
 
-%build
-%meson
-%meson_build
-
 %install
 %meson_install
-
 #we don't want these
 find %{buildroot} -name "*.a" -delete
 
