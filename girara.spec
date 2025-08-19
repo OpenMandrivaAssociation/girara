@@ -19,7 +19,7 @@ BuildRequires:	pkgconfig(libnotify)
 BuildRequires:	pkgconfig(json-c)
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:	doxygen
-BuildRequires:	xlibre-xfvb
+BuildRequires:	xlibre-xvfb
 BuildRequires:	gettext
 
 %description
