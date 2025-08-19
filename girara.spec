@@ -19,7 +19,8 @@ BuildRequires:	pkgconfig(libnotify)
 BuildRequires:	pkgconfig(json-c)
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:	doxygen
-BuildRequires:	meson
+BuildRequires:	xlibre-xfvb
+BuildRequires:	gettext
 
 %description
 Girara is a library that implements a user interface that focuses on simplicity
